@@ -12,3 +12,12 @@ commits for experimental purposes.
 What is the benefit of having a copy of the last known state of the remote stored locally?
 The benefit is that differnces can be analyzed between two versions, even at the time
 when there is no internet connectivity.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Without Git/Github, other CVS like google sheets could be used. Google sheets make
+synchronization tasks easier but then it robs user of flexibility, which is very
+much required.
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+When the project dwells into experimental modifications, that's when a separate branch is
+needed. Separate branch makes it easy to incorporate any changes wihout affecting the main branch. However, this appoach takes a lot of time.
