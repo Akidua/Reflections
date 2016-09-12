@@ -8,3 +8,7 @@ Describe the differences between forks, clones, and branches. When would you use
 Forks are used for directly copying repository to the gtihub account; clone is used for
 copying repository to local machine and branches are used for making a new hierarchy of
 commits for experimental purposes.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+The benefit is that differnces can be analyzed between two versions, even at the time
+when there is no internet connectivity.
