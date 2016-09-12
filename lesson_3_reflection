@@ -3,3 +3,8 @@ Remote repository can be used when a project requires collaboration from other t
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 It is possible that newly introduced commit may cause a bug in the local repository of a user; so it is better that the user should be allowed to pull request whenever they want.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forks are used for directly copying repository to the gtihub account; clone is used for
+copying repository to local machine and branches are used for making a new hierarchy of
+commits for experimental purposes.

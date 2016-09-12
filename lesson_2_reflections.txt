@@ -7,3 +7,27 @@ Initialization is used to create our own repository from scratch.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 In staging areas, commit takes place one by one, thus , bolstering the concept of logical 
 structure of repositories.
+
+How can you use the staging area to make sure you have one commit per logical change?
+One commit tkes place per logical change by adding modified files one at a time depending
+on the logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches are useful for maintaining organizational structure when differnt versions of same
+code artifact may be required.
+
+How do the diagrams help you visualize the branch structure?
+Diagrams are visual representation of the structure of branches of git.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result of merging two branches is a single branch with all the logical updates.
+We represent merge in form of apt diagrams to recognize the parent commits and analyze
+the updated structure.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic Merging:Pros: Saves time, less effort
+		  Cons: Can cause bug if conflict is not resolved the way it should have had.
+Manual Merge: Pros: Conflict easily resolved
+	      Cons: Not automated; takes efforts 
+
+										
